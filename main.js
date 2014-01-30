@@ -11,12 +11,12 @@ var swapCase = function(str) {
 	var swapLetter = [];
 	for (var i=0; i<letter.length; i++) {
 	if (letter[i] === letter[i].toUpperCase()) {
-		swapLetter.push( letter[i].toLowerCase());
+		swapLetter.push(letter[i].toLowerCase());
 	}
 	else if (letter[i] === letter[i].toLowerCase()) {
-		swapLetter.push( letter[i].toUpperCase());
+		swapLetter.push(letter[i].toUpperCase());
 	}
 	}
-	return swapLetter;
+	return swapLetter.join("");
 };
 
